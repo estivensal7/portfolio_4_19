@@ -1,0 +1,16 @@
+#contact-section-container {
+	height: 70vh;
+	background: url("../../images/bgPattern.jpg");
+}
+
+.contact-form {
+	padding: 5% 20% 0% 20%;
+}
+
+#contact-header-top-img {
+	padding-bottom: 5vh;
+}
+
+.contact-h1 {
+	margin: 0;
+}

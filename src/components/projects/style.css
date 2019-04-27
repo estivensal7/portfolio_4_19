@@ -1,0 +1,33 @@
+.project-container {
+	display: flex;
+	margin-top: 3%;
+}
+
+.project-card {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.project-card > img {
+	height: 50% !important;
+}
+
+.project-title-div {
+	margin-top: 15px;
+	background: url("../../images/cta2.png");
+	height: 140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: black;
+}
+
+.project-title-div:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.project-title {
+	height: 100px;
+	margin-top: 5%;
+	font-size: 20px;
+}

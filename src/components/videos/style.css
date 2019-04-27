@@ -1,0 +1,33 @@
+.video-container {
+	display: flex;
+	margin-top: 3%;
+}
+
+.video-card {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.video-card > img {
+	height: 50% !important;
+}
+
+.video-title-div {
+	margin-top: 15px;
+	background: url("../../images/cta2.png");
+	height: 140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: black;
+}
+
+.video-title-div:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.video-title {
+	height: 100px;
+	margin-top: 10%;
+	font-size: 20px;
+}

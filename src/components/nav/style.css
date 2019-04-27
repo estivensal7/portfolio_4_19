@@ -1,0 +1,27 @@
+.navbar {
+	border-radius: 0;
+}
+
+.es-logo {
+	height: 10vh;
+}
+
+.navbar-inner {
+	background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.nav-item > a {
+	text-emphasis: none !important;
+	text-decoration: none !important;
+	color: white !important;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.nav-item > a:hover {
+	border: 1px solid white;
+}
+
+.navbar-nav > li {
+	margin-right: 50px;
+}

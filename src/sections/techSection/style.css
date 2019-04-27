@@ -1,0 +1,16 @@
+#tech-section-container {
+	width: 100%;
+	height: 80vh;
+	background: url("../../images/bgPattern.jpg");
+}
+
+#tech-h1 {
+	margin: 0;
+}
+
+#tech-border-bottom {
+	margin-top: 10vh;
+	width: 100%;
+	height: 142px;
+	z-index: 999;
+}
