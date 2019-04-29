@@ -4,7 +4,7 @@ import "./style.css";
 function Techs({ ...props }) {
 	return (
 		<div
-			className="card tech-card col-6 col-sm-4 col-md-3 float-left"
+			className="card tech-card col-6 col-sm-3 col-md-6 col-xl-3 float-left"
 			style={{ borderRadius: "0px !important" }}
 		>
 			<img

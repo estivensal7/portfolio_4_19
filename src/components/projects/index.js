@@ -7,7 +7,7 @@ import mernTodoPic from "../../images/mern_todo.png";
 function Projects() {
 	return (
 		<div className="project-container">
-			<div className="card col-4 mx-auto project-card">
+			<div className="card col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto project-card">
 				<img
 					className="card-img-top"
 					src={stachePic}
@@ -25,7 +25,7 @@ function Projects() {
 				</a>
 			</div>
 
-			<div className="card col-4 mx-auto project-card">
+			<div className="card col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto project-card">
 				<img
 					className="card-img-top"
 					src={mernTodoPic}
@@ -43,7 +43,7 @@ function Projects() {
 				</a>
 			</div>
 
-			<div className="card col-4 mx-auto project-card">
+			<div className="card col-sm-4 col-md-4 col-lg-4 col-xl-4 mx-auto project-card">
 				<img
 					className="card-img-top"
 					src={mernTodoPic}

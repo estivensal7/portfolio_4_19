@@ -32,7 +32,7 @@ class Nav extends Component {
 
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-light bg-light mb-2 fixed-top navbar-inner">
+			<nav className="navbar navbar-expand-lg navbar-light mb-2 fixed-top navbar-inner">
 				<a href="/" className="navbar-left">
 					<img
 						className="es-logo"

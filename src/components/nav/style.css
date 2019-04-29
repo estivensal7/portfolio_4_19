@@ -25,3 +25,21 @@
 .navbar-nav > li {
 	margin-right: 50px;
 }
+
+.navbar-toggler {
+	background-color: white !important;
+	border-radius: 0% !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.nav-item > a {
+		font-size: 20px;
+	}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.nav-item > a {
+		font-size: 25px;
+	}
+}

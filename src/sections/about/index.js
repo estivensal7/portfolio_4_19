@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 
-import bottomBorder from "../../images/border_1_bottom.png";
 import esLogo from "../../images/ES_logo.png";
 
 function About() {
@@ -70,12 +69,6 @@ function About() {
 					</div>
 				</div>
 			</div>
-
-			<img
-				src={bottomBorder}
-				alt="bottom border"
-				id="about-border-bottom"
-			/>
 		</div>
 	);
 }

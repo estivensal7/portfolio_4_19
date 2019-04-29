@@ -3,28 +3,8 @@
 }
 
 #project-section-header {
-	margin: 0;
-}
-
-#videos-border-top-container {
-	background-position: center 0;
-	background-size: cover;
-	margin-top: 7vh;
-	max-width: 100%;
-	height: 142px;
-	z-index: 99998;
-}
-
-#tech-border-top {
-	position: relative;
-	bottom: -15vh;
-	width: 100%;
-	height: 142px;
-	z-index: 999;
-}
-
-#project-section-header {
 	color: white;
+	margin: 0;
 }
 
 .header-top-img,
@@ -36,4 +16,127 @@
 .header-top-img {
 	margin-top: 5%;
 	transform: rotate(180deg);
+}
+
+@media (min-width: 2201px) {
+	.project-section-container {
+		height: 70vh;
+	}
+
+	#project-section-header {
+		color: white;
+		margin: 0;
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.project-section-container {
+		height: 60vh;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.project-section-container {
+		height: 50vh;
+	}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 180vh;
+	}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 180vh;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 200vh;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 180vh;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+	.project-section-container {
+		height: 160vh;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 60vh;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 120vh;
+	}
+}
+
+/* iPhone 6/7/8 PORTRAIT*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 200vh;
+	}
+}
+
+/* iPhone 6/7/8 + */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+	.project-section-container {
+		height: 200vh !important;
+	}
+}
+
+/* iPhone 6/7/8 + LANDSCAPE*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 120vh;
+	}
+}
+
+/* iPhone 6/7/8 PORTRAIT*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 180vh !important;
+	}
+}
+
+/* iPhone 6/7/8 LANDSCAPE*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+	.project-section-container {
+		height: 120vh;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	.project-section-container {
+		height: 90vh;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.project-section-container {
+		height: 80vh;
+	}
+}
+
+@media only screen and (min-width: 3000px) {
+	.project-section-container {
+		height: 90vh;
+	}
 }

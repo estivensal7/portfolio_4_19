@@ -9,6 +9,7 @@ import TechSection from "./sections/techSection";
 import ProjectSection from "./sections/projectSection";
 import VideoSection from "./sections/videoSection";
 import Contact from "./sections/contact";
+import Footer from "./sections/footer";
 
 //importing constant components
 import Nav from "./components/nav";
@@ -23,6 +24,7 @@ function App() {
 			<TechSection />
 			<VideoSection />
 			<Contact />
+			<Footer />
 		</div>
 	);
 }

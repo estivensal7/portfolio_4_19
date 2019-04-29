@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 import techList from "../../techList";
-import bottomBorder from "../../images/border_1_bottom.png";
 import headerTop from "../../images/deco_black.svg";
 
 // importing components
@@ -19,6 +18,7 @@ class TechSection extends Component {
 					className="header-top-img"
 					src={headerTop}
 					alt="deco-border"
+					id="tech-header-top-img"
 				/>
 				<h1 id="tech-h1">Technologies</h1>
 				<img
@@ -36,11 +36,6 @@ class TechSection extends Component {
 						/>
 					);
 				})}
-				<img
-					src={bottomBorder}
-					alt="bottom border"
-					id="tech-border-bottom"
-				/>
 			</div>
 		);
 	}

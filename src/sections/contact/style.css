@@ -1,6 +1,10 @@
 #contact-section-container {
-	height: 70vh;
-	background: url("../../images/bgPattern.jpg");
+	height: 110vh;
+	background: url("../../images/lightBg.png");
+	padding: 0 !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .contact-form {
@@ -13,4 +17,9 @@
 
 .contact-h1 {
 	margin: 0;
+}
+
+.contact-icon {
+	height: 5vh;
+	margin-top: 5vh;
 }

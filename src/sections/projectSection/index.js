@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import paintBorder from "../../images/border_1.png";
 import headerTop from "../../images/deco.svg";
 
 //importing components
@@ -24,11 +23,6 @@ function ProjectSection() {
 				alt="header-border"
 			/>
 			<Projects />
-			<img
-				src={paintBorder}
-				alt="border"
-				id="tech-border-top"
-			/>
 		</div>
 	);
 }

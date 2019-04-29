@@ -7,7 +7,7 @@ import mernTodoPic from "../../images/mern_todo.png";
 function Videos() {
 	return (
 		<div className="video-container">
-			<div className="card video-card col-12 col-sm-4 col-md-4 col-lg-2  mx-auto">
+			<div className="card video-card col-12 col-sm-4 col-md-8 col-lg-4  mx-auto">
 				<img
 					className="card-img-top"
 					src={project3Pic}
@@ -20,7 +20,7 @@ function Videos() {
 				</a>
 			</div>
 
-			<div className="card video-card col-12 col-sm-4 col-md-4 col-lg-2  mx-auto">
+			<div className="card video-card col-12 col-sm-4 col-md-8 col-lg-4  mx-auto">
 				<img
 					className="card-img-top"
 					src={mernTodoPic}
@@ -33,7 +33,7 @@ function Videos() {
 				</a>
 			</div>
 
-			<div className="card video-card col-12 col-sm-4 col-md-4 col-lg-2  mx-auto">
+			<div className="card video-card col-12 col-sm-4 col-md-8 col-lg-4  mx-auto">
 				<img
 					className="card-img-top"
 					src={mernTodoPic}
