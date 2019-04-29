@@ -13,7 +13,12 @@ function Videos() {
 					src={project3Pic}
 					alt="Video Source"
 				/>
-				<a className="video-title-div" href="/">
+				<a
+					className="video-title-div"
+					href="https://drive.google.com/file/d/1IMng9r9xvfb-JL_PAs1Z6p_eUOZKs6Ky/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<p className="video-title">
 						JobCards Presentation
 					</p>
@@ -26,7 +31,12 @@ function Videos() {
 					src={mernTodoPic}
 					alt="Video Source"
 				/>
-				<a className="video-title-div" href="/">
+				<a
+					className="video-title-div"
+					href="https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5206211-1417-4993-b3ae-aa2700edf7ee"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<p className="video-title">
 						MERN To-Do Presentation Pt. 1
 					</p>
@@ -39,7 +49,12 @@ function Videos() {
 					src={mernTodoPic}
 					alt="Video Source"
 				/>
-				<a className="video-title-div" href="/">
+				<a
+					className="video-title-div"
+					href="https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7db02fb8-3edb-4c52-a127-aa27011c28c3"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<p className="video-title">
 						MERN To-Do Presentation Pt. 2
 					</p>
